@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { MuiThemeProvider } from 'material-ui/styles';
 
-import './index.css';
 import Events from './components/Events';
 import EventsNew from './components/EventsNew';
 import EventsShow from './components/EventsShow';
@@ -39,4 +38,35 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-reportWebVitals();
+// import CounterContext from './contexts/counter';
+// import ContextCounter from './components/ContextCounter';
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+
+//     this.increment = this.increment.bind(this);
+//     this.decrement = this.decrement.bind(this);
+
+//     this.state = {
+//       count: 0,
+//       increment: this.increment,
+//       decrement: this.decrement,
+//     };
+//   }
+
+//   increment() {
+//     this.setState({ count: this.state.count + 1 });
+//   }
+//   decrement() {
+//     this.setState({ count: this.state.count - 1 });
+//   }
+
+//   render() {
+//     return (
+//       <CounterContext.Provider value={this.state}>
+//         <ContextCounter />
+//       </CounterContext.Provider>
+//     );
+//   }
+// }
+// ReactDOM.render(<App />, document.getElementById('root'));
