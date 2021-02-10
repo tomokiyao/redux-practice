@@ -10,8 +10,6 @@ import { MuiThemeProvider } from 'material-ui/styles';
 import Events from './components/Events';
 import EventsNew from './components/EventsNew';
 import EventsShow from './components/EventsShow';
-
-import reportWebVitals from './reportWebVitals';
 import reducers from './reducers';
 
 const enhander =
